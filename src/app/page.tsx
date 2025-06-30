@@ -59,12 +59,8 @@ export default function Home() {
           className="rounded-full border border-solid border-blue-500 text-blue-500 transition-colors flex items-center justify-center hover:bg-blue-50 font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto mt-4"
           onClick={() => router.push('/samples')}
         >
-          Samplesページへ
+          zenkigen-component Examples
         </button>
-
-        <div>
-        <Button onClick={() => router.push('/samples')}>zenkigen-component Examples</Button>
-        </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
